@@ -11,7 +11,7 @@ bot = TeleBot(BOT_TOKEN)
 def send_welcome(message):
     owner = types.InlineKeyboardButton(text="Owner",url="https://t.me/Spit_Fire_bot")
     markup = types.InlineKeyboardMarkup().add(owner)
-    bot.reply_to(message,"Welcome to Ghiddra DDoS bot 🤡\n\nUses:\n\t/attack example.com",reply_markup=markup)
+    bot.reply_to(message,"Welcome to The Beamer Bot ⚡\n\nUses:\n\t/attack example.com",reply_markup=markup)
     
 @bot.message_handler(commands=["attack"])
 def Ddos(message):
