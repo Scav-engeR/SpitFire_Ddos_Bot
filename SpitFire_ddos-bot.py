@@ -4,7 +4,7 @@
 import os,requests,threading,telebot
 from telebot import *
 
-BOT_TOKEN = "7636578133:AAG7RgHniO23MVatr_hh-bT1naQgoe3_D7I"#ENTER YOUR BOT TOKEN HERE
+BOT_TOKEN = ""#ENTER YOUR BOT TOKEN HERE
 bot = TeleBot(BOT_TOKEN)
 
 @bot.message_handler(commands=['start'])
